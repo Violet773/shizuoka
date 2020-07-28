@@ -183,15 +183,27 @@ img, video, object {
 
 .section .diary-img img {
   box-shadow: 2px 2px 4px grey;
-  width: 90%;
+  width: 89%;
   margin: 0 auto;
+  margin-bottom: 0.3em;
 }
 
+.section .diary-img .imgsl {
+  width: 43.5%;
+  display: inline-block;
+  margin-left: 5.5%;  
+}
+
+.section .diary-img .imgsr {
+  width: 43.5%;
+  margin-left: 0.5%;   
+  display: inline-block;  
+}
 
 .section .diary-text {
   width: 90%;
   margin: 0 auto;
-  padding: 0.5em 0.5em 0 0.5em;
+  padding: 0.5em;
 }
 
 .section .text p{
