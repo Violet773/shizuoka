@@ -1,0 +1,281 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /*font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;*/
+  font-family:"Noto Sans JP", "sans-serif", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.8;
+  word-break: break-all;
+}
+
+a {
+  color: #7db9e7;
+  text-decoration: none;
+}
+
+/*a:hover {*/
+/*  text-decoration: underline;*/
+/*}*/
+
+a:hover img {
+  text-decoration: none;
+  opacity: 0.8;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+img, video, object {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: bottom;
+  display: block;
+}
+
+#backToTop {
+  position: fixed;
+  z-index: 9999;
+  bottom: 15px;
+  right: 15px;
+}
+
+#backToTop a {
+  display: block;
+  text-decoration: none;
+  color: #B7ED56;
+  opacity: 0.7;
+}
+
+#backToTop i {
+  font-size: 4.0rem;
+}
+
+/*--------------------------------
+　全体
+---------------------------------*/
+
+.inner {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/*--------------------------------
+　header
+---------------------------------*/
+
+#header {
+  background-color: #fff;
+}
+
+#header .logo {
+  text-align: center;
+}
+
+#header .logo a {
+  color: #B7ED56;
+  font-size: 1.6rem;
+  text-decoration: none;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+#header .camera {
+  display: inline-block;
+  width: 25px;
+  height: auto;
+  vertical-align: text-top;
+  margin-left: 0.2em;
+}
+
+#header .icon {
+  width: 20px;
+  display: inline-block;
+  padding-bottom: 3px;
+  margin-right: 8px;
+}
+
+/*--------------------------------
+　globalnavi
+---------------------------------*/
+
+.gnav {
+  background-color: #fff;
+  margin-top: 0.5rem;
+}
+
+.gnav .inner li {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.gnav .inner a {
+  color: #444;
+  font-size: 0.9em;
+  padding: 0.2em;
+}
+
+.gnav .gnav-li {
+  display: inline-block;
+  width: 17px;
+  vertical-align: middle;
+  margin-right: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+/*--------------------------------
+　section
+---------------------------------*/
+
+.section {
+  background-color: #fff;
+  padding: 10px 0;
+}
+
+.section h4 {
+  margin-top: 0.2em;
+}
+
+.section .diary-item {
+  border-left: 2px dashed #CBFF9A;
+  margin-left: 1em;
+  position: relative;
+}
+
+.diary-item .train::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 16px;
+  background-image: url(../img/train.png);
+  background-size: contain;
+  position: absolute;
+  top: 40%;
+  left: -3%;
+}
+
+.diary-item .foot::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 16px;
+  background-image: url(../img/foot.png);
+  background-size: contain;
+  position: absolute;
+  top: 40%;
+  left: -2%;
+}
+
+.section .diary-img img {
+  box-shadow: 2px 2px 4px grey;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.section .diary-text {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.5em 0.5em 0 0.5em;
+}
+
+.section .text p{
+  line-height: 0.5;
+  margin-top: -0.7em;
+}
+
+.title {
+  background: linear-gradient(transparent 70%, #CBFF9A 70%); 
+  display: inline;
+  font-size: 1.2em;
+}
+
+#section03 .link-wrp a {
+  color: #444;
+}
+
+#section03 .link-item {
+  display: flex;
+  margin-top: 0.7em;
+  padding: 0.5em;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px lightgray;
+}
+
+#section03 .link-img {
+  width: 30%;
+}
+
+#section03 .link-img img {
+  width: 100%;
+}
+
+#section03 .link-text {
+  width: 70%;
+  padding-left: 0.7em;
+}
+
+/*--------------------------------
+  Footer
+---------------------------------*/
+
+#footer {
+  background-color: #CBFF9A;
+}
+
+#footer .inner {
+  padding: 20px 10px;
+}
+
+#footer .footer-link {
+  text-align: center;
+}
+
+#footer .footer-link li {
+  display: inline-block;
+  margin-right: 1.0em;
+}
+
+#footer .footer-link .footer-li {
+  margin-right: 0.15em;
+  display: inline-block;
+  width: 14px;
+  vertical-align: middle;
+  margin-right: 0.3em;
+  margin-bottom: 0.1em;  
+}
+
+#footer .footer-link a {
+  color: #333;
+  font-size: 0.9em;
+}
+
+#footer .copyright {
+  font-size: 12px;
+  text-align: center;
+}
+
+#footer .copyright a {
+  color: #333;
+}
+
+/*media Queries 767
+----------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+  ｝
