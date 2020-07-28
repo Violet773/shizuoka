@@ -165,20 +165,56 @@ img, video, object {
   background-image: url(../img/train.png);
   background-size: contain;
   position: absolute;
-  top: 40%;
+  bottom: 2.0rem;
   left: -3%;
 }
 
 .diary-item .foot::before {
   content: "";
   display: inline-block;
-  width: 14px;
-  height: 16px;
-  background-image: url(../img/foot.png);
+  width: 27px;
+  height: 26px;
+  background-image: url(../img/foot2.png);
   background-size: contain;
   position: absolute;
-  top: 40%;
+  bottom: 2.0rem;
+  left: -4%;
+}
+
+.diary-item .bus::before {
+  content: "";
+  display: inline-block;
+  width: 26px;
+  height: 14px;
+  background-image: url(../img/bus.png);
+  background-size: contain;
+  position: absolute;
+  bottom: 2.0rem;
+  left: -4%;
+}
+
+.diary-item .bed::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 22px;
+  background-image: url(../img/bed.png);
+  background-size: contain;
+  position: absolute;
+  bottom: 2.0rem;
   left: -2%;
+}
+
+.diary-item .car::before {
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 14px;
+  background-image: url(../img/car.png);
+  background-size: contain;
+  position: absolute;
+  top: 90%;
+  left: -3%;
 }
 
 .section .diary-img img {
