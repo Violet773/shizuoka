@@ -14,8 +14,8 @@ body {
   /*font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;*/
   font-family:"Noto Sans JP", "sans-serif", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
   color: #333;
-  font-size: 15px;
-  line-height: 1.8;
+  font-size: 14px;
+  line-height: 1.5;
   word-break: break-all;
 }
 
@@ -149,6 +149,7 @@ img, video, object {
 
 .section h4 {
   margin-top: 0.2em;
+  line-height: 2.0;
 }
 
 .section .diary-item {
@@ -172,8 +173,8 @@ img, video, object {
 .diary-item .foot::before {
   content: "";
   display: inline-block;
-  width: 27px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
   background-image: url(../img/foot2.png);
   background-size: contain;
   position: absolute;
@@ -184,13 +185,13 @@ img, video, object {
 .diary-item .bus::before {
   content: "";
   display: inline-block;
-  width: 26px;
-  height: 14px;
+  width: 19px;
+  height: 19px;
   background-image: url(../img/bus.png);
   background-size: contain;
   position: absolute;
   bottom: 2.0rem;
-  left: -4%;
+  left: -3%;
 }
 
 .diary-item .bed::before {
@@ -209,11 +210,11 @@ img, video, object {
   content: "";
   display: inline-block;
   width: 19px;
-  height: 14px;
+  height: 19px;
   background-image: url(../img/car.png);
   background-size: contain;
   position: absolute;
-  top: 90%;
+  bottom: 2.0rem;
   left: -3%;
 }
 
