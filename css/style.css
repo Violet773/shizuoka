@@ -71,7 +71,7 @@ img, video, object {
   max-width: 736px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 6px 10px;
 }
 
 /*--------------------------------
@@ -107,6 +107,7 @@ img, video, object {
   padding-bottom: 3px;
   margin-right: 8px;
 }
+
 
 /*--------------------------------
 　globalnavi
@@ -278,6 +279,37 @@ img, video, object {
   padding-left: 0.7em;
 }
 
+#section04 h5 {
+  display: inline;
+  position: relative;
+  padding: 0.5em 0.6em 0.3em;
+  background: #FFF98C;
+  border-radius: 10px;
+}
+
+#section04 h5:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 15px;
+  border: 5px solid transparent;
+  border-top: 5px solid #FFF98C;
+  width: 0;
+  height: 0;
+}
+
+#section04 .pen {
+  display: inline-block;
+  width: 14px;
+  vertical-align: middle;
+  margin-bottom: 0.3em;
+  margin-left: 0.2em;
+}
+
+#section04 .last-text {
+  padding-top: 0.7rem;
+}
+
 /*--------------------------------
   Footer
 ---------------------------------*/
@@ -324,6 +356,3 @@ img, video, object {
 
 /*media Queries 767
 ----------------------------------------------------*/
-
-@media screen and (max-width: 767px) {
-  ｝

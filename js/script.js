@@ -2,7 +2,7 @@ $(function() {
 
   //ページ内スクロール
   $('a[href^="#"]').on('click', function() {
-    var speed = 300;
+    var speed = 500;
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
     var position = target.offset().top;
@@ -11,6 +11,7 @@ $(function() {
     }, speed, "swing");
     return false;
   });
+  
 
   //ページ上部へ戻る
   var backToTop = $('#backToTop');
@@ -25,7 +26,7 @@ $(function() {
   $('#backToTop').on('click', function() {
     $('body,html').animate({
       scrollTop: 0
-    }, 300);
+    }, 500);
     return false;
   });
 
