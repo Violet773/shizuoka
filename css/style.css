@@ -109,6 +109,20 @@ img, video, object {
   margin-right: 8px;
 }
 
+#header #top-img {
+ max-width: 736px;
+ padding-top: 100%;
+ margin: 0 auto;
+ text-align: left;
+ position: relative;  
+}
+
+#header #top-img img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+} 
 
 /*--------------------------------
 　globalnavi
