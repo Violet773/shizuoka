@@ -84,6 +84,7 @@ img, video, object {
 
 #header .logo {
   text-align: center;
+  padding: 0.5em 0;
 }
 
 #header .logo a {
@@ -356,3 +357,26 @@ img, video, object {
 
 /*media Queries 767
 ----------------------------------------------------*/
+@media (min-width: 450px) {
+  
+.diary-item .train::before {
+  left: -1.5%;
+}
+
+.diary-item .foot::before {
+  left: -2.5%;
+}
+
+.diary-item .bus::before {
+  left: -1.5%;
+}
+
+.diary-item .bed::before {
+  left: -1%;
+}
+
+.diary-item .car::before {
+  left: -1.5%;
+}
+
+}
