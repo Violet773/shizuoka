@@ -84,7 +84,7 @@ img, video, object {
 
 #header .logo {
   text-align: center;
-  padding: 0.5em 0;
+  padding: 0.6em 0 0;
 }
 
 #header .logo a {
@@ -293,8 +293,8 @@ img, video, object {
   content: '';
   top: 100%;
   left: 15px;
-  border: 5px solid transparent;
-  border-top: 5px solid #FFF98C;
+  border: 8px solid transparent;
+  border-top: 8px solid #FFF98C;
   width: 0;
   height: 0;
 }
@@ -353,6 +353,34 @@ img, video, object {
 
 #footer .copyright a {
   color: #333;
+}
+
+/*--------------------------------
+  Sanbi
+---------------------------------*/
+#sanbi {
+  text-align: center;
+  line-height: 2;
+  padding: 3em 1em;
+}
+
+#sanbi .sanbi-title {
+  background: linear-gradient(transparent 70%, #CBFF9A 70%);
+  display: inline;
+  font-size: 1.2em;
+}
+
+#sanbi .music {
+  display: inline-block ;
+  width: 32px;
+}
+
+#sanbi .kashi {
+  padding-top: 3.0em;
+}
+
+#sanbi .sanbi-img {
+  box-shadow: 2px 2px 4px darkgrey;
 }
 
 /*media Queries 767
